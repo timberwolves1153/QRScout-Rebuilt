@@ -1,5 +1,5 @@
 import { Helmet } from 'react-helmet';
-import { useQRScout-RebuiltState } from '../store/store';
+import { useQRScoutState } from '../store/store';
 
 export function Header() {
   const page_title = useQRScoutState(state => state.formData.page_title);
