@@ -271,7 +271,6 @@
       "defaultValue": "No Role",
       "choices": {
         "No Role": "None",
-        "Shoot": "Shooter",
         "Shuttle": "Shuttler",
         "Pass": "Passer",
         "Defend": "Defender"
