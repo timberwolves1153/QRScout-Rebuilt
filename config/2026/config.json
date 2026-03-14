@@ -227,167 +227,162 @@
       ]
     },
     {
-      "name": "Active",
-      "fields": [
-        {
-          "title": "Crossed into opposite zone during Active Shift?",
-          "description": "Did the robot cross into the opposing alliance's zone?",
-          "type": "boolean",
-          "required": false,
-          "code": "ActivecrossedZone",
-          "formResetBehavior": "reset",
-          "defaultValue": false
-        },
-        {
-          "title": "Gold Spot during the Active Shift?",
-          "description": "Where did the robot score/corral all of the balls to during the match?",
-          "type": "select",
-          "required": true,
-          "code": "ActiveGoldSpot",
-          "formResetBehavior": "reset",
-          "defaultValue": "Hub",
-          "choices": {
-            "Hub": "Hub",
-            "Depot": "Depot",
-            "Outpost": "Outpost",
-            "Tren": "Trench",
-            "Neu": "Neutral Zone",
-            "Oppo": "Opponent's Zone",
-            "Other": "Other spots (Middle area of own alliance zone)"
-          }
-        },
-        {
-          "title": "Role of Robot during the Active shift?",
-          "description": "What did the robot mainly do during this Active period?",
-          "type": "select",
-          "required": true,
-          "code": "ActiveRole",
-          "formResetBehavior": "reset",
-          "defaultValue": "No Role",
-          "choices": {
-            "No Role": "None",
-            "Score": "Scorer",
-            "Shoot": "Shooter",
-            "Shuttle": "Shuttler",
-            "Pass": "Passer",
-            "Defend": "Defender"
-          }
-        },
-        {
-          "title": "Scoring Acc. in Active Shift?",
-          "description": "The percentage accuracy for the number of fuel scored in autonomous.",
-          "type": "select",
-          "required": false,
-          "code": "activeFuelScored",
-          "formResetBehavior": "reset",
-          "defaultValue": "0",
-          "choices": {
-            "0": "🟥 0%-25%",
-            "25": "🟧 25%-50%",
-            "50": "🟨 50%-75%",
-            "75": "🟩 75%-100%"
-          }
-        },
-        {
-          "title": "Defended during Active Shift?",
-          "description": "Did the robot play defense during the match?",
-          "type": "boolean",
-          "required": false,
-          "code": "activerobotDefended",
-          "formResetBehavior": "reset",
-          "defaultValue": false
-        },
-        {
-          "title": "Defense Skill",
-          "description": "Rate the robot's defensive skill.",
-          "type": "select",
-          "required": false,
-          "code": "activedefSkill",
-          "formResetBehavior": "reset",
-          "defaultValue": "1",
-          "choices": {
-          "1": "Very Poor Defense",
-          "2": "Poor Defense",
-          "3": "Average Defense",
-          "4": "Good Defense",
-          "5": "Excellent Defense"
-          }
-        }
-      ]
+  "name": "Robot Shifts",
+  "fields": [
+    {
+      "title": "Active Shift: Crossed Opponent Zone?",
+      "description": "Did the robot cross into the opposing alliance's zone during the active shift?",
+      "type": "boolean",
+      "required": false,
+      "code": "Active_crossedZone",
+      "formResetBehavior": "reset",
+      "defaultValue": false
     },
     {
-      "name": "Inactive",
-      "fields": [
-        {
-          "title": "Crossed into opposite zone during Inactive Shift?",
-          "description": "Did the robot cross into the opposing alliance's zone?",
-          "type": "boolean",
-          "required": false,
-          "code": "InactivecrossedZone",
-          "formResetBehavior": "reset",
-          "defaultValue": false
-        },
-        {
-          "title": "Gold Spot during the InActive Shift?",
-          "description": "Where did the robot score/corral all of the balls to during the match?",
-          "type": "select",
-          "required": true,
-          "code": "InactiveGoldSpot",
-          "formResetBehavior": "reset",
-          "defaultValue": "Hub",
-          "choices": {
-            "Hub": "Hub",
-            "Depot": "Depot",
-            "Outpost": "Outpost",
-            "Tren": "Trench",
-            "Neu": "Neutral Zone",
-            "Oppo": "Opponent's Zone",
-            "Other": "Other spots (Middle area of own alliance zone)"
-          }
-        },
-        {
-          "title": "Role of Robot during Inactive Shift?",
-          "description": "What did the robot mainly do during this Active period?",
-          "type": "select",
-          "required": true,
-          "code": "InactiveRole",
-          "formResetBehavior": "reset",
-          "defaultValue": "No Role",
-          "choices": {
-            "No Role": "None",
-            "Score": "Scorer",
-            "Shoot": "Shooter",
-            "Shuttle": "Shuttler",
-            "Pass": "Passer",
-            "Defend": "Defender"
-          }
-        },
-        {
-          "title": "Defended during Inactive Shift?",
-          "description": "Did the robot play defense during the match?",
-          "type": "boolean",
-          "required": false,
-          "code": "InactiverobotDefended",
-          "formResetBehavior": "reset",
-          "defaultValue": false
-        },
-        {
-          "title": "Defense Skill",
-          "description": "Rate the robot's defensive skill.",
-          "type": "select",
-          "required": false,
-          "code": "InactivedefSkill",
-          "formResetBehavior": "reset",
-          "defaultValue": "1",
-          "choices": {
-          "1": "Very Poor Defense",
-          "2": "Poor Defense",
-          "3": "Average Defense",
-          "4": "Good Defense",
-          "5": "Excellent Defense"
+      "title": "Active Shift: Gold Spot",
+      "description": "Where did the robot score/corral balls during the active shift?",
+      "type": "select",
+      "required": true,
+      "code": "Active_GoldSpot",
+      "formResetBehavior": "reset",
+      "defaultValue": "Hub",
+      "choices": {
+        "Hub": "Hub",
+        "Depot": "Depot",
+        "Outpost": "Outpost",
+        "Tren": "Trench",
+        "Neu": "Neutral Zone",
+        "Oppo": "Opponent's Zone",
+        "Other": "Other spots"
+      }
+    },
+    {
+      "title": "Active Shift: Role",
+      "description": "What did the robot mainly do during the active shift?",
+      "type": "select",
+      "required": true,
+      "code": "Active_Role",
+      "formResetBehavior": "reset",
+      "defaultValue": "No Role",
+      "choices": {
+        "No Role": "None",
+        "Score": "Scorer",
+        "Shoot": "Shooter",
+        "Shuttle": "Shuttler",
+        "Pass": "Passer",
+        "Defend": "Defender"
+      }
+    },
+    {
+      "title": "Active Shift: Scoring Accuracy",
+      "description": "Percentage accuracy for the number of fuel scored in active shift",
+      "type": "select",
+      "required": false,
+      "code": "Active_FuelScored",
+      "formResetBehavior": "reset",
+      "defaultValue": "0",
+      "choices": {
+        "0": "🟥 0%-25%",
+        "25": "🟧 25%-50%",
+        "50": "🟨 50%-75%",
+        "75": "🟩 75%-100%"
+      }
+    },
+    {
+      "title": "Active Shift: Defended?",
+      "description": "Did the robot play defense during the active shift?",
+      "type": "boolean",
+      "required": false,
+      "code": "Active_Defended",
+      "formResetBehavior": "reset",
+      "defaultValue": false
+    },
+    {
+      "title": "Active Shift: Defense Skill",
+      "description": "Rate the robot's defensive skill during the active shift",
+      "type": "select",
+      "required": false,
+      "code": "Active_DefSkill",
+      "formResetBehavior": "reset",
+      "defaultValue": "1",
+      "choices": {
+        "1": "Very Poor",
+        "2": "Poor",
+        "3": "Average",
+        "4": "Good",
+        "5": "Excellent"
+      }
+    },
+    {
+      "title": "Inactive Shift: Crossed Opponent Zone?",
+      "description": "Did the robot cross into the opposing alliance's zone during the inactive shift?",
+      "type": "boolean",
+      "required": false,
+      "code": "Inactive_crossedZone",
+      "formResetBehavior": "reset",
+      "defaultValue": false
+    },
+    {
+      "title": "Inactive Shift: Gold Spot",
+      "description": "Where did the robot score/corral balls during the inactive shift?",
+      "type": "select",
+      "required": true,
+      "code": "Inactive_GoldSpot",
+      "formResetBehavior": "reset",
+      "defaultValue": "Hub",
+      "choices": {
+        "Hub": "Hub",
+        "Depot": "Depot",
+        "Outpost": "Outpost",
+        "Tren": "Trench",
+        "Neu": "Neutral Zone",
+        "Oppo": "Opponent's Zone",
+        "Other": "Other spots"
+      }
+    },
+    {
+      "title": "Inactive Shift: Role",
+      "description": "What did the robot mainly do during the inactive shift?",
+      "type": "select",
+      "required": true,
+      "code": "Inactive_Role",
+      "formResetBehavior": "reset",
+      "defaultValue": "No Role",
+      "choices": {
+        "No Role": "None",
+        "Score": "Scorer",
+        "Shoot": "Shooter",
+        "Shuttle": "Shuttler",
+        "Pass": "Passer",
+        "Defend": "Defender"
+      }
+    },
+    {
+      "title": "Inactive Shift: Defended?",
+      "description": "Did the robot play defense during the inactive shift?",
+      "type": "boolean",
+      "required": false,
+      "code": "Inactive_Defended",
+      "formResetBehavior": "reset",
+      "defaultValue": false
+    },
+    {
+      "title": "Inactive Shift: Defense Skill",
+      "description": "Rate the robot's defensive skill during the inactive shift",
+      "type": "select",
+      "required": false,
+      "code": "Inactive_DefSkill",
+      "formResetBehavior": "reset",
+      "defaultValue": "1",
+      "choices": {
+        "1": "Very Poor",
+        "2": "Poor",
+        "3": "Average",
+        "4": "Good",
+        "5": "Excellent"
         }
-        }
-      ]
+    }
+    ]
     },
     {
       "name": "Endgame",
