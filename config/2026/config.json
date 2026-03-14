@@ -227,7 +227,7 @@
       ]
     },
     {
-  "name": "Robot Shifts",
+  "name": "Overall Robot Performance",
   "fields": [
     {
       "title": "Active Shift: Crossed Opponent Zone?",
@@ -384,7 +384,7 @@
           "formResetBehavior": "reset",
           "defaultValue": 0
         },
-         {
+        {
           "title": "Third Best Team Number",
           "description": "The team number of the robot you're scouting.",
           "type": "number",
@@ -394,63 +394,31 @@
           "defaultValue": 0
         },
         {
-          "title": "Climbed",
-          "description": "The level the robot climbed during endgame.",
-          "type": "select",
+          "title": "Fouth Best Team Number",
+          "description": "The team number of the robot you're scouting.",
+          "type": "number",
           "required": true,
-          "code": "climbed",
+          "code": "teamNumber3",
           "formResetBehavior": "reset",
-          "defaultValue": "No",
-          "choices": {
-            "No": "No Climb",
-            "L1": "Level 1",
-            "L2": "Level 2",
-            "L3": "Level 3",
-            "F": "Failed Climb"
-          }
+          "defaultValue": 0
         },
         {
-          "title": "Robot Climbed Where?",
-          "description": "Where on the tower did the robot climb?",
-          "type": "select",
-          "required": false,
-          "code": "climbPos",
+          "title": "Fifth Best Team Number",
+          "description": "The team number of the robot you're scouting.",
+          "type": "number",
+          "required": true,
+          "code": "teamNumber3",
           "formResetBehavior": "reset",
-          "defaultValue": "No",
-          "choices": {
-            "No": "No Climb",
-            "Out": "Output Side",
-            "Mid": "Middle",
-            "Dep": "Depot Side"
-          }
+          "defaultValue": 0
         },
         {
-          "title": "Robot Overall Performance?",
-          "description": "How did the robot perform as a whole during the match?",
-          "type": "select",
-          "required": false,
-          "code": "OverallPerformance",
+          "title": "Sixth Best Team Number",
+          "description": "The team number of the robot you're scouting.",
+          "type": "number",
+          "required": true,
+          "code": "teamNumber3",
           "formResetBehavior": "reset",
-          "defaultValue": "",
-          "choices": {
-          "1": "Very Poor",
-          "2": "Below Average",
-          "3": "Average",
-          "4": "Strong",
-          "5": "Elite"
-          }
-        },
-        {
-          "title": "Passing Skill",
-          "description": "Rate the robot's passing skill.",
-          "type": "range",
-          "required": false,
-          "code": "passingSkill",
-          "formResetBehavior": "reset",
-          "defaultValue": 3,
-          "min": 0,
-          "max": 5,
-          "step": 1
+          "defaultValue": 0
         },
         {
           "title": "Mechanical Issue?",
