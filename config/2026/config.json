@@ -234,16 +234,41 @@
       "description": "Did the robot cross into the opposing alliance's zone during the active shift?",
       "type": "boolean",
       "required": false,
-      "code": "Active_crossedZone",
+      "code": "Shift_Active_crossedZone",
+      "formResetBehavior": "reset",
+      "defaultValue": false
+    },
+    {
+      "title": "Inactive Shift: Crossed Opponent Zone?",
+      "description": "Did the robot cross into the opposing alliance's zone during the inactive shift?",
+      "type": "boolean",
+      "required": false,
+      "code": "Shift_Inactive_crossedZone",
       "formResetBehavior": "reset",
       "defaultValue": false
     },
     {
       "title": "Active Shift: Gold Spot",
-      "description": "Where did the robot score/corral balls during the active shift?",
       "type": "select",
       "required": true,
-      "code": "Active_GoldSpot",
+      "code": "Shift_Active_goldSpot",
+      "formResetBehavior": "reset",
+      "defaultValue": "Hub",
+      "choices": {
+        "Hub": "Hub",
+        "Depot": "Depot",
+        "Outpost": "Outpost",
+        "Tren": "Trench",
+        "Neu": "Neutral Zone",
+        "Oppo": "Opponent's Zone",
+        "Other": "Other spots"
+      }
+    },
+    {
+      "title": "Inactive Shift: Gold Spot",
+      "type": "select",
+      "required": true,
+      "code": "Shift_Inactive_goldSpot",
       "formResetBehavior": "reset",
       "defaultValue": "Hub",
       "choices": {
@@ -258,10 +283,9 @@
     },
     {
       "title": "Active Shift: Role",
-      "description": "What did the robot mainly do during the active shift?",
       "type": "select",
       "required": true,
-      "code": "Active_Role",
+      "code": "Shift_Active_role",
       "formResetBehavior": "reset",
       "defaultValue": "No Role",
       "choices": {
@@ -274,11 +298,26 @@
       }
     },
     {
-      "title": "Active Shift: Scoring Accuracy",
-      "description": "Percentage accuracy for the number of fuel scored in active shift",
+      "title": "Inactive Shift: Role",
+      "type": "select",
+      "required": true,
+      "code": "Shift_Inactive_role",
+      "formResetBehavior": "reset",
+      "defaultValue": "No Role",
+      "choices": {
+        "No Role": "None",
+        "Score": "Scorer",
+        "Shoot": "Shooter",
+        "Shuttle": "Shuttler",
+        "Pass": "Passer",
+        "Defend": "Defender"
+      }
+    },
+    {
+      "title": "Active Shift: Fuel Accuracy",
       "type": "select",
       "required": false,
-      "code": "Active_FuelScored",
+      "code": "Shift_Active_fuelAcc",
       "formResetBehavior": "reset",
       "defaultValue": "0",
       "choices": {
@@ -290,99 +329,39 @@
     },
     {
       "title": "Active Shift: Defended?",
-      "description": "Did the robot play defense during the active shift?",
       "type": "boolean",
       "required": false,
-      "code": "Active_Defended",
+      "code": "Shift_Active_defended",
+      "formResetBehavior": "reset",
+      "defaultValue": false
+    },
+    {
+      "title": "Inactive Shift: Defended?",
+      "type": "boolean",
+      "required": false,
+      "code": "Shift_Inactive_defended",
       "formResetBehavior": "reset",
       "defaultValue": false
     },
     {
       "title": "Active Shift: Defense Skill",
-      "description": "Rate the robot's defensive skill during the active shift",
       "type": "select",
       "required": false,
-      "code": "Active_DefSkill",
+      "code": "Shift_Active_defSkill",
       "formResetBehavior": "reset",
       "defaultValue": "1",
-      "choices": {
-        "1": "Very Poor",
-        "2": "Poor",
-        "3": "Average",
-        "4": "Good",
-        "5": "Excellent"
-      }
-    },
-    {
-      "title": "Inactive Shift: Crossed Opponent Zone?",
-      "description": "Did the robot cross into the opposing alliance's zone during the inactive shift?",
-      "type": "boolean",
-      "required": false,
-      "code": "Inactive_crossedZone",
-      "formResetBehavior": "reset",
-      "defaultValue": false
-    },
-    {
-      "title": "Inactive Shift: Gold Spot",
-      "description": "Where did the robot score/corral balls during the inactive shift?",
-      "type": "select",
-      "required": true,
-      "code": "Inactive_GoldSpot",
-      "formResetBehavior": "reset",
-      "defaultValue": "Hub",
-      "choices": {
-        "Hub": "Hub",
-        "Depot": "Depot",
-        "Outpost": "Outpost",
-        "Tren": "Trench",
-        "Neu": "Neutral Zone",
-        "Oppo": "Opponent's Zone",
-        "Other": "Other spots"
-      }
-    },
-    {
-      "title": "Inactive Shift: Role",
-      "description": "What did the robot mainly do during the inactive shift?",
-      "type": "select",
-      "required": true,
-      "code": "Inactive_Role",
-      "formResetBehavior": "reset",
-      "defaultValue": "No Role",
-      "choices": {
-        "No Role": "None",
-        "Score": "Scorer",
-        "Shoot": "Shooter",
-        "Shuttle": "Shuttler",
-        "Pass": "Passer",
-        "Defend": "Defender"
-      }
-    },
-    {
-      "title": "Inactive Shift: Defended?",
-      "description": "Did the robot play defense during the inactive shift?",
-      "type": "boolean",
-      "required": false,
-      "code": "Inactive_Defended",
-      "formResetBehavior": "reset",
-      "defaultValue": false
+      "choices": {"1":"Very Poor","2":"Poor","3":"Average","4":"Good","5":"Excellent"}
     },
     {
       "title": "Inactive Shift: Defense Skill",
-      "description": "Rate the robot's defensive skill during the inactive shift",
       "type": "select",
       "required": false,
-      "code": "Inactive_DefSkill",
+      "code": "Shift_Inactive_defSkill",
       "formResetBehavior": "reset",
       "defaultValue": "1",
-      "choices": {
-        "1": "Very Poor",
-        "2": "Poor",
-        "3": "Average",
-        "4": "Good",
-        "5": "Excellent"
+      "choices": {"1":"Very Poor","2":"Poor","3":"Average","4":"Good","5":"Excellent"}
         }
-    }
-    ]
+      ]
     },
     {
       "name": "Endgame",
