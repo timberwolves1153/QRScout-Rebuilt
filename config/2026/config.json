@@ -94,7 +94,7 @@
         "description": "Select team and robot position",
         "formResetBehavior": "reset",
         "defaultValue": null
-        }
+        },
         {
           "title": "Robot",
           "description": "The robot you are scouting this match, based on driver station position.",
