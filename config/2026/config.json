@@ -195,11 +195,11 @@
           "required": false,
           "code": "autoEndPos",
           "formResetBehavior": "reset",
-          "defaultValue": "Left",
+          "defaultValue": "Hub",
           "choices": {
-            "Lef": "Left",
-            "Mid": "Middle",
-            "Rig": "Right"
+            "Hub": "Hub",
+            "Depot": "Depot",
+            "Outpost": "Outpost"
           }
         },     
         {
@@ -307,7 +307,7 @@
       "1": "🟧 Minimal — Very little or accidental fuel movement",
       "2": "🟨 Support — Moves fuel sometimes but not a main role",
       "3": "🟩 Active — Regularly collecting and transporting fuel",
-      "4": "🟦 Dominant — Main fuel supplier for alliance"
+      "4": "🟦 Elite — Main fuel supplier for alliance"
       }
     },
     {
