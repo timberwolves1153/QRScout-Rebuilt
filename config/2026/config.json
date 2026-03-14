@@ -96,24 +96,6 @@
         "defaultValue": null
         },
         {
-          "title": "Robot",
-          "description": "The robot you are scouting this match, based on driver station position.",
-          "type": "select",
-          "required": true,
-          "code": "robot",
-          "formResetBehavior": "preserve",
-          "defaultValue": "R1",
-          "choices": {
-            "R1": "🟥 Red 1",
-            "R2": "🟥 Red 2",
-            "R3": "🟥 Red 3",
-            "SPC": "------",
-            "B1": "🟦 Blue 1",
-            "B2": "🟦 Blue 2",
-            "B3": "🟦 Blue 3"
-          }
-        },
-        {
           "title": "Starting Position",
           "description": "The starting position of the robot.",
           "type": "select",
