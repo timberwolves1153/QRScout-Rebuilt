@@ -290,7 +290,6 @@
       "defaultValue": "No Role",
       "choices": {
         "No Role": "None",
-        "Score": "Scorer",
         "Shoot": "Shooter",
         "Shuttle": "Shuttler",
         "Pass": "Passer",
@@ -306,7 +305,6 @@
       "defaultValue": "No Role",
       "choices": {
         "No Role": "None",
-        "Score": "Scorer",
         "Shoot": "Shooter",
         "Shuttle": "Shuttler",
         "Pass": "Passer",
@@ -317,7 +315,7 @@
       "title": "Active/InActive Shift: Fuel Movement",
       "type": "select",
       "required": false,
-      "code": "Shift_Active_fuelMov",
+      "code": "Shift_fuelMov",
       "formResetBehavior": "reset",
       "defaultValue": "0",
       "choices": {
@@ -332,7 +330,7 @@
       "title": "Active/InActive Shift: Fuel Influence",
       "type": "select",
       "required": false,
-      "code": "Shift_Active_fuelMov",
+      "code": "Shift_fuelInflu",
       "formResetBehavior": "reset",
       "defaultValue": "0",
       "choices": {
