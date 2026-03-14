@@ -345,58 +345,58 @@
       "name": "Match Review",
       "fields": [
          {
-          "title": "Best Team Number",
-          "description": "The team number of the robot you're scouting.",
-          "type": "number",
-          "required": true,
-          "code": "teamNumber1",
-          "formResetBehavior": "reset",
-          "defaultValue": 0
-        },
-         {
-          "title": "Second Best Team Number",
-          "description": "The team number of the robot you're scouting.",
-          "type": "number",
-          "required": true,
-          "code": "teamNumber2",
-          "formResetBehavior": "reset",
-          "defaultValue": 0
+        "title": "Best Team Number",
+        "type": "TBA-team-and-robot",
+        "required": true,
+        "code": "teamAndRobot1",
+        "description": "Select team and robot position",
+        "formResetBehavior": "reset",
+        "defaultValue": null
         },
         {
-          "title": "Third Best Team Number",
-          "description": "The team number of the robot you're scouting.",
-          "type": "number",
-          "required": true,
-          "code": "teamNumber3",
-          "formResetBehavior": "reset",
-          "defaultValue": 0
+        "title": "Second Best Team Number",
+        "type": "TBA-team-and-robot",
+        "required": true,
+        "code": "teamAndRobot2",
+        "description": "Select team and robot position",
+        "formResetBehavior": "reset",
+        "defaultValue": null
         },
         {
-          "title": "Fouth Best Team Number",
-          "description": "The team number of the robot you're scouting.",
-          "type": "number",
-          "required": true,
-          "code": "teamNumber3",
-          "formResetBehavior": "reset",
-          "defaultValue": 0
+        "title": "Third Best Team Number",
+        "type": "TBA-team-and-robot",
+        "required": true,
+        "code": "teamAndRobot3",
+        "description": "Select team and robot position",
+        "formResetBehavior": "reset",
+        "defaultValue": null
         },
         {
-          "title": "Fifth Best Team Number",
-          "description": "The team number of the robot you're scouting.",
-          "type": "number",
-          "required": true,
-          "code": "teamNumber3",
-          "formResetBehavior": "reset",
-          "defaultValue": 0
+        "title": "Fourth Best Team Number",
+        "type": "TBA-team-and-robot",
+        "required": true,
+        "code": "teamAndRobot4",
+        "description": "Select team and robot position",
+        "formResetBehavior": "reset",
+        "defaultValue": null
         },
         {
-          "title": "Sixth Best Team Number",
-          "description": "The team number of the robot you're scouting.",
-          "type": "number",
-          "required": true,
-          "code": "teamNumber3",
-          "formResetBehavior": "reset",
-          "defaultValue": 0
+        "title": "Fifth Best Team Number",
+        "type": "TBA-team-and-robot",
+        "required": true,
+        "code": "teamAndRobot5",
+        "description": "Select team and robot position",
+        "formResetBehavior": "reset",
+        "defaultValue": null
+        },
+        {
+        "title": "Sixth Best Team Number",
+        "type": "TBA-team-and-robot",
+        "required": true,
+        "code": "teamAndRobot6",
+        "description": "Select team and robot position",
+        "formResetBehavior": "reset",
+        "defaultValue": null
         },
         {
           "title": "Mechanical Issue?",
