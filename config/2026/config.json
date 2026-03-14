@@ -232,24 +232,6 @@
   "name": "Teleop",
   "fields": [
     {
-      "title": "Active Shift: Crossed Opponent Zone?",
-      "description": "Did the robot cross into the opposing alliance's zone during the active shift?",
-      "type": "boolean",
-      "required": false,
-      "code": "Shift_Active_crossedZone",
-      "formResetBehavior": "reset",
-      "defaultValue": false
-    },
-    {
-      "title": "Inactive Shift: Crossed Opponent Zone?",
-      "description": "Did the robot cross into the opposing alliance's zone during the inactive shift?",
-      "type": "boolean",
-      "required": false,
-      "code": "Shift_Inactive_crossedZone",
-      "formResetBehavior": "reset",
-      "defaultValue": false
-    },
-    {
       "title": "Active Shift: Gold Spot",
       "type": "select",
       "required": true,
