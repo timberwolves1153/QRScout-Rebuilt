@@ -227,7 +227,7 @@
       ]
     },
     {
-  "name": "Overall Robot Performance",
+  "name": "Teleop",
   "fields": [
     {
       "title": "Active Shift: Crossed Opponent Zone?",
@@ -314,18 +314,33 @@
       }
     },
     {
-      "title": "Active Shift: Fuel Accuracy",
+      "title": "Active/InActive Shift: Fuel Movement",
       "type": "select",
       "required": false,
-      "code": "Shift_Active_fuelAcc",
+      "code": "Shift_Active_fuelMov",
       "formResetBehavior": "reset",
       "defaultValue": "0",
       "choices": {
-        "0": "🟥 0%-25%",
-        "25": "🟧 25%-50%",
-        "50": "🟨 50%-75%",
-        "75": "🟩 75%-100%"
+      "0": "🟥 None — No meaningful fuel interaction",
+      "1": "🟧 Minimal — Very little or accidental fuel movement",
+      "2": "🟨 Support — Moves fuel sometimes but not a main role",
+      "3": "🟩 Active — Regularly collecting and transporting fuel",
+      "4": "🟦 Dominant — Main fuel supplier for alliance"
       }
+    },
+    {
+      "title": "Active/InActive Shift: Fuel Influence",
+      "type": "select",
+      "required": false,
+      "code": "Shift_Active_fuelMov",
+      "formResetBehavior": "reset",
+      "defaultValue": "0",
+      "choices": {
+      "0": "🟥 None — No fuel impact",
+      "1": "🟧 Minor — Small fuel influence",
+      "2": "🟨 Moderate — Controls some fuel areas",
+      "3": "🟩 Major — Strong fuel control"
+        }
     },
     {
       "title": "Active Shift: Defended?",
@@ -364,7 +379,7 @@
       ]
     },
     {
-      "name": "Endgame",
+      "name": "Match Review",
       "fields": [
          {
           "title": "Best Team Number",
