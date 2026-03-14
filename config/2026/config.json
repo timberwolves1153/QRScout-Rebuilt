@@ -346,7 +346,7 @@
       "required": false,
       "code": "Shift_Active_defSkill",
       "formResetBehavior": "reset",
-      "defaultValue": "1",
+      "defaultValue": "0",
       "choices": {"0":"None","1":"Very Poor","2":"Poor","3":"Average","4":"Good","5":"Excellent"}
     },
     {
@@ -355,7 +355,7 @@
       "required": false,
       "code": "Shift_Inactive_defSkill",
       "formResetBehavior": "reset",
-      "defaultValue": "1",
+      "defaultValue": "0",
       "choices": {"0":"None","1":"Very Poor","2":"Poor","3":"Average","4":"Good","5":"Excellent"}
         }
       ]
