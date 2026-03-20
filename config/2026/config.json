@@ -89,7 +89,7 @@
         {
         "title": "Team & Robot Position",
         "type": "TBA-team-and-robot",
-        "required": true,
+        "required": false,
         "code": "teamAndRobot",
         "description": "Select team and robot position",
         "formResetBehavior": "reset",
@@ -99,7 +99,7 @@
           "title": "Starting Position",
           "description": "The starting position of the robot.",
           "type": "select",
-          "required": true,
+          "required": false,
           "code": "startPos",
           "formResetBehavior": "reset",
           "defaultValue": "",
@@ -144,7 +144,7 @@
           "title": "Climbed",
           "description": "The level the robot climbed during autonomous.",
           "type": "select",
-          "required": true,
+          "required": false,
           "code": "climbed",
           "formResetBehavior": "reset",
           "defaultValue": "No",
@@ -216,7 +216,7 @@
     {
       "title": "Active Shift: Gold Spot",
       "type": "select",
-      "required": true,
+      "required": false,
       "code": "Shift_Active_goldSpot",
       "formResetBehavior": "reset",
       "defaultValue": "Hub",
@@ -233,7 +233,7 @@
     {
       "title": "Inactive Shift: Gold Spot",
       "type": "select",
-      "required": true,
+      "required": false,
       "code": "Shift_Inactive_goldSpot",
       "formResetBehavior": "reset",
       "defaultValue": "Hub",
@@ -250,7 +250,7 @@
     {
       "title": "Active Shift: Role",
       "type": "select",
-      "required": true,
+      "required": faLse,
       "code": "Shift_Active_role",
       "formResetBehavior": "reset",
       "defaultValue": "No Role",
@@ -265,7 +265,7 @@
     {
       "title": "Inactive Shift: Role",
       "type": "select",
-      "required": true,
+      "required": false,
       "code": "Shift_Inactive_role",
       "formResetBehavior": "reset",
       "defaultValue": "No Role",
@@ -428,7 +428,7 @@
         {
           "title": "Yellow/Red Card",
           "type": "select",
-          "required": true,
+          "required": false,
           "code": "yc",
           "formResetBehavior": "reset",
           "defaultValue": "No Card",
