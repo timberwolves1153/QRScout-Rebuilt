@@ -250,7 +250,7 @@
     {
       "title": "Active Shift: Role",
       "type": "select",
-      "required": faLse,
+      "required": false,
       "code": "Shift_Active_role",
       "formResetBehavior": "reset",
       "defaultValue": "No Role",
