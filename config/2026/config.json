@@ -354,7 +354,7 @@
         "defaultValue": null
         },
         {
-          "title": "Tag 1",
+          "title": "Robot Review 1",
           "description": "Add the tags if applicable to the robot for this match",
           "type": "multi-select",
           "required": false,
@@ -386,7 +386,7 @@
         "defaultValue": null
         },
         {
-          "title": "Tag 2",
+          "title": "Robot Review 2",
           "description": "Add the tags if applicable to the robot for this match",
           "type": "multi-select",
           "required": false,
@@ -418,7 +418,7 @@
         "defaultValue": null
         },
         {
-          "title": "Tag 3",
+          "title": "Robot Review 3",
           "description": "Add the tags if applicable to the robot for this match",
           "type": "multi-select",
           "required": false,
@@ -450,7 +450,7 @@
         "defaultValue": null
         },
         {
-          "title": "Tag 4",
+          "title": "Robot Review 4",
           "description": "Add the tags if applicable to the robot for this match",
           "type": "multi-select",
           "required": false,
@@ -482,7 +482,7 @@
         "defaultValue": null
         },
         {
-          "title": "Tag 5",
+          "title": "Robot Review 5",
           "description": "Add the tags if applicable to the robot for this match",
           "type": "multi-select",
           "required": false,
@@ -514,7 +514,7 @@
         "defaultValue": null
         },
         {
-          "title": "Tag 6",
+          "title": "Robot Review 6",
           "description": "Add the tags if applicable to the robot for this match",
           "type": "multi-select",
           "required": false,
