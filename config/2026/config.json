@@ -362,18 +362,13 @@
           "formResetBehavior": "reset",
           "choices": {
             "Good Defense": "Good Defense",
+            "No Defense": "No Defense",
             "Bad Defense": "Bad Defense",
-            "Slow Driving": "Slow Driving",
-            "Fast Driving": "Fast Driving",
             "Fuel Dropped": "Fuel Dropped",
-            "Accurate Shots": "Accurate Shots",
-            "Inaccurate Shots": "Inaccurate Shots",
-            "Slow Intake": "Slow Intake",
-            "Fast Intake": "Fast Intake",
             "Slow Scoring": "Slow Scoring",
             "Fast Scoring": "Fast Scoring",
-            "Fast Climb": "Fast Climb",
-            "Slow Climb": "Slow Climb"
+            "Broken": "Broken",
+            "Lost Connection": "Lost Connection"
           }
         },
         {
@@ -394,18 +389,13 @@
           "formResetBehavior": "reset",
           "choices": {
             "Good Defense": "Good Defense",
+            "No Defense": "No Defense",
             "Bad Defense": "Bad Defense",
-            "Slow Driving": "Slow Driving",
-            "Fast Driving": "Fast Driving",
             "Fuel Dropped": "Fuel Dropped",
-            "Accurate Shots": "Accurate Shots",
-            "Inaccurate Shots": "Inaccurate Shots",
-            "Slow Intake": "Slow Intake",
-            "Fast Intake": "Fast Intake",
             "Slow Scoring": "Slow Scoring",
             "Fast Scoring": "Fast Scoring",
-            "Fast Climb": "Fast Climb",
-            "Slow Climb": "Slow Climb"
+            "Broken": "Broken",
+            "Lost Connection": "Lost Connection"
           }
         },
         {
@@ -426,18 +416,13 @@
           "formResetBehavior": "reset",
           "choices": {
             "Good Defense": "Good Defense",
+            "No Defense": "No Defense",
             "Bad Defense": "Bad Defense",
-            "Slow Driving": "Slow Driving",
-            "Fast Driving": "Fast Driving",
             "Fuel Dropped": "Fuel Dropped",
-            "Accurate Shots": "Accurate Shots",
-            "Inaccurate Shots": "Inaccurate Shots",
-            "Slow Intake": "Slow Intake",
-            "Fast Intake": "Fast Intake",
             "Slow Scoring": "Slow Scoring",
             "Fast Scoring": "Fast Scoring",
-            "Fast Climb": "Fast Climb",
-            "Slow Climb": "Slow Climb"
+            "Broken": "Broken",
+            "Lost Connection": "Lost Connection"
           }
         },
         {
@@ -458,18 +443,13 @@
           "formResetBehavior": "reset",
           "choices": {
             "Good Defense": "Good Defense",
+            "No Defense": "No Defense",
             "Bad Defense": "Bad Defense",
-            "Slow Driving": "Slow Driving",
-            "Fast Driving": "Fast Driving",
             "Fuel Dropped": "Fuel Dropped",
-            "Accurate Shots": "Accurate Shots",
-            "Inaccurate Shots": "Inaccurate Shots",
-            "Slow Intake": "Slow Intake",
-            "Fast Intake": "Fast Intake",
             "Slow Scoring": "Slow Scoring",
             "Fast Scoring": "Fast Scoring",
-            "Fast Climb": "Fast Climb",
-            "Slow Climb": "Slow Climb"
+            "Broken": "Broken",
+            "Lost Connection": "Lost Connection"
           }
         },
         {
@@ -490,18 +470,13 @@
           "formResetBehavior": "reset",
           "choices": {
             "Good Defense": "Good Defense",
+            "No Defense": "No Defense",
             "Bad Defense": "Bad Defense",
-            "Slow Driving": "Slow Driving",
-            "Fast Driving": "Fast Driving",
             "Fuel Dropped": "Fuel Dropped",
-            "Accurate Shots": "Accurate Shots",
-            "Inaccurate Shots": "Inaccurate Shots",
-            "Slow Intake": "Slow Intake",
-            "Fast Intake": "Fast Intake",
             "Slow Scoring": "Slow Scoring",
             "Fast Scoring": "Fast Scoring",
-            "Fast Climb": "Fast Climb",
-            "Slow Climb": "Slow Climb"
+            "Broken": "Broken",
+            "Lost Connection": "Lost Connection"
           }
         },
         {
@@ -522,18 +497,13 @@
           "formResetBehavior": "reset",
           "choices": {
             "Good Defense": "Good Defense",
+            "No Defense": "No Defense",
             "Bad Defense": "Bad Defense",
-            "Slow Driving": "Slow Driving",
-            "Fast Driving": "Fast Driving",
             "Fuel Dropped": "Fuel Dropped",
-            "Accurate Shots": "Accurate Shots",
-            "Inaccurate Shots": "Inaccurate Shots",
-            "Slow Intake": "Slow Intake",
-            "Fast Intake": "Fast Intake",
             "Slow Scoring": "Slow Scoring",
             "Fast Scoring": "Fast Scoring",
-            "Fast Climb": "Fast Climb",
-            "Slow Climb": "Slow Climb"
+            "Broken": "Broken",
+            "Lost Connection": "Lost Connection"
           }
         },
         {
