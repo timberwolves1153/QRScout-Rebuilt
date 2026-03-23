@@ -354,6 +354,29 @@
         "defaultValue": null
         },
         {
+          "title": "Tag 1",
+          "description": "Add the tags if applicable to the robot for this match",
+          "type": "multi-select",
+          "required": false,
+          "code": "tag1",
+          "formResetBehavior": "reset",
+          "choices": {
+            "Good Defense": "Good Defense",
+            "Bad Defense": "Bad Defense",
+            "Slow Driving": "Slow Driving",
+            "Fast Driving": "Fast Driving",
+            "Fuel Dropped": "Fuel Dropped",
+            "Accurate Shots": "Accurate Shots",
+            "Inaccurate Shots": "Inaccurate Shots",
+            "Slow Intake": "Slow Intake",
+            "Fast Intake": "Fast Intake",
+            "Slow Scoring": "Slow Scoring",
+            "Fast Scoring": "Fast Scoring",
+            "Fast Climb": "Fast Climb",
+            "Slow Climb": "Slow Climb"
+          }
+        },
+        {
         "title": "Second Best Team Number",
         "type": "TBA-team-and-robot",
         "required": true,
@@ -361,6 +384,29 @@
         "description": "Select team and robot position",
         "formResetBehavior": "reset",
         "defaultValue": null
+        },
+        {
+          "title": "Tag 2",
+          "description": "Add the tags if applicable to the robot for this match",
+          "type": "multi-select",
+          "required": false,
+          "code": "tag2",
+          "formResetBehavior": "reset",
+          "choices": {
+            "Good Defense": "Good Defense",
+            "Bad Defense": "Bad Defense",
+            "Slow Driving": "Slow Driving",
+            "Fast Driving": "Fast Driving",
+            "Fuel Dropped": "Fuel Dropped",
+            "Accurate Shots": "Accurate Shots",
+            "Inaccurate Shots": "Inaccurate Shots",
+            "Slow Intake": "Slow Intake",
+            "Fast Intake": "Fast Intake",
+            "Slow Scoring": "Slow Scoring",
+            "Fast Scoring": "Fast Scoring",
+            "Fast Climb": "Fast Climb",
+            "Slow Climb": "Slow Climb"
+          }
         },
         {
         "title": "Third Best Team Number",
@@ -372,6 +418,29 @@
         "defaultValue": null
         },
         {
+          "title": "Tag 3",
+          "description": "Add the tags if applicable to the robot for this match",
+          "type": "multi-select",
+          "required": false,
+          "code": "tag3",
+          "formResetBehavior": "reset",
+          "choices": {
+            "Good Defense": "Good Defense",
+            "Bad Defense": "Bad Defense",
+            "Slow Driving": "Slow Driving",
+            "Fast Driving": "Fast Driving",
+            "Fuel Dropped": "Fuel Dropped",
+            "Accurate Shots": "Accurate Shots",
+            "Inaccurate Shots": "Inaccurate Shots",
+            "Slow Intake": "Slow Intake",
+            "Fast Intake": "Fast Intake",
+            "Slow Scoring": "Slow Scoring",
+            "Fast Scoring": "Fast Scoring",
+            "Fast Climb": "Fast Climb",
+            "Slow Climb": "Slow Climb"
+          }
+        },
+        {
         "title": "Fourth Best Team Number",
         "type": "TBA-team-and-robot",
         "required": true,
@@ -379,6 +448,29 @@
         "description": "Select team and robot position",
         "formResetBehavior": "reset",
         "defaultValue": null
+        },
+        {
+          "title": "Tag 4",
+          "description": "Add the tags if applicable to the robot for this match",
+          "type": "multi-select",
+          "required": false,
+          "code": "tag4",
+          "formResetBehavior": "reset",
+          "choices": {
+            "Good Defense": "Good Defense",
+            "Bad Defense": "Bad Defense",
+            "Slow Driving": "Slow Driving",
+            "Fast Driving": "Fast Driving",
+            "Fuel Dropped": "Fuel Dropped",
+            "Accurate Shots": "Accurate Shots",
+            "Inaccurate Shots": "Inaccurate Shots",
+            "Slow Intake": "Slow Intake",
+            "Fast Intake": "Fast Intake",
+            "Slow Scoring": "Slow Scoring",
+            "Fast Scoring": "Fast Scoring",
+            "Fast Climb": "Fast Climb",
+            "Slow Climb": "Slow Climb"
+          }
         },
         {
         "title": "Fifth Best Team Number",
@@ -390,6 +482,29 @@
         "defaultValue": null
         },
         {
+          "title": "Tag 5",
+          "description": "Add the tags if applicable to the robot for this match",
+          "type": "multi-select",
+          "required": false,
+          "code": "tag5",
+          "formResetBehavior": "reset",
+          "choices": {
+            "Good Defense": "Good Defense",
+            "Bad Defense": "Bad Defense",
+            "Slow Driving": "Slow Driving",
+            "Fast Driving": "Fast Driving",
+            "Fuel Dropped": "Fuel Dropped",
+            "Accurate Shots": "Accurate Shots",
+            "Inaccurate Shots": "Inaccurate Shots",
+            "Slow Intake": "Slow Intake",
+            "Fast Intake": "Fast Intake",
+            "Slow Scoring": "Slow Scoring",
+            "Fast Scoring": "Fast Scoring",
+            "Fast Climb": "Fast Climb",
+            "Slow Climb": "Slow Climb"
+          }
+        },
+        {
         "title": "Sixth Best Team Number",
         "type": "TBA-team-and-robot",
         "required": true,
@@ -397,6 +512,29 @@
         "description": "Select team and robot position",
         "formResetBehavior": "reset",
         "defaultValue": null
+        },
+        {
+          "title": "Tag 6",
+          "description": "Add the tags if applicable to the robot for this match",
+          "type": "multi-select",
+          "required": false,
+          "code": "tag6",
+          "formResetBehavior": "reset",
+          "choices": {
+            "Good Defense": "Good Defense",
+            "Bad Defense": "Bad Defense",
+            "Slow Driving": "Slow Driving",
+            "Fast Driving": "Fast Driving",
+            "Fuel Dropped": "Fuel Dropped",
+            "Accurate Shots": "Accurate Shots",
+            "Inaccurate Shots": "Inaccurate Shots",
+            "Slow Intake": "Slow Intake",
+            "Fast Intake": "Fast Intake",
+            "Slow Scoring": "Slow Scoring",
+            "Fast Scoring": "Fast Scoring",
+            "Fast Climb": "Fast Climb",
+            "Slow Climb": "Slow Climb"
+          }
         },
         {
           "title": "Mechanical Issue?",
