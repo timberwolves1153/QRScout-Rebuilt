@@ -141,36 +141,6 @@
           }
         },
         {
-          "title": "Climbed",
-          "description": "The level the robot climbed during autonomous.",
-          "type": "select",
-          "required": false,
-          "code": "climbed",
-          "formResetBehavior": "reset",
-          "defaultValue": "No",
-          "choices": {
-            "No": "No Climb",
-            "L1": "Level 1",
-            "L2": "Level 2",
-            "L3": "Level 3",
-            "F": "Failed Climb"
-          }
-        },
-        {
-          "title": "Where Climbed",
-          "description": "Where on the tower did the robot climb in autonomous?",
-          "type": "select",
-          "required": false,
-          "code": "autoClimbPos",
-          "formResetBehavior": "reset",
-          "defaultValue": "Outpost Side",
-          "choices": {
-            "Outpost": "Outpost Side",
-            "Middle": "Middle",
-            "Depot": "Depot Side"
-          }
-        },
-        {
           "title": "End Position",
           "description": "Where they ended on the field at the end of Autonomous?",
           "type": "select",
@@ -304,43 +274,7 @@
       "2": "🟨 Moderate — Controls some fuel areas",
       "3": "🟩 Major — Strong fuel control"
         }
-    },
-    {
-      "title": "Active Shift: Defended?",
-      "type": "boolean",
-      "required": false,
-      "code": "Shift_Active_defended",
-      "formResetBehavior": "reset",
-      "defaultValue": false
-    },
-    {
-      "title": "Inactive Shift: Defended?",
-      "type": "boolean",
-      "required": false,
-      "code": "Shift_Inactive_defended",
-      "formResetBehavior": "reset",
-      "defaultValue": false
-    },
-    {
-      "title": "Active Shift: Defense Skill",
-      "type": "select",
-      "required": false,
-      "code": "Shift_Active_defSkill",
-      "formResetBehavior": "reset",
-      "defaultValue": "0",
-      "choices": {"0":"None","1":"Very Poor","2":"Poor","3":"Average","4":"Good","5":"Excellent"}
-    },
-    {
-      "title": "Inactive Shift: Defense Skill",
-      "type": "select",
-      "required": false,
-      "code": "Shift_Inactive_defSkill",
-      "formResetBehavior": "reset",
-      "defaultValue": "0",
-      "choices": {"0":"None","1":"Very Poor","2":"Poor","3":"Average","4":"Good","5":"Excellent"}
-        }
-      ]
-    },
+    }
     {
       "name": "Match Review",
       "fields": [
