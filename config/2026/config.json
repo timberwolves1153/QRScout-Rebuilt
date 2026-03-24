@@ -274,7 +274,9 @@
       "2": "🟨 Moderate — Controls some fuel areas",
       "3": "🟩 Major — Strong fuel control"
         }
-  },
+    }
+  ]
+},
   {
   "name": "Match Review",
   "fields": [
@@ -486,5 +488,6 @@
         }
       ]
     }
-  ]}]}
+  ]
+}
  
