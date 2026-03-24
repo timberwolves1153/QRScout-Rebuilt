@@ -274,11 +274,11 @@
       "2": "🟨 Moderate — Controls some fuel areas",
       "3": "🟩 Major — Strong fuel control"
         }
-    },
-    {
-      "name": "Match Review",
-      "fields": [
-         {
+  },
+  {
+  "name": "Match Review",
+  "fields": [
+        {
         "title": "Best Team Number",
         "type": "TBA-team-and-robot",
         "required": true,
