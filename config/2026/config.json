@@ -123,25 +123,26 @@
       ]
     },
     {
-      "name": "Autonomous",
+      "name": "Game Play",
       "fields": [
         {
-          "title": "First Action then second Action",
-          "description": "Did the robot climb during autonomous?",
+          "title": "Autonomous Cycles",
+          "description": "What did the robot do during autonomous?",
           "type": "select",
           "required": false,
-          "code": "autoClimbed",
+          "code": "autoCycle",
           "formResetBehavior": "reset",
           "defaultValue": "Notshomo",
           "choices": {
-            "Shotcen": "Shoot the balls, then drive to center",
-            "Shothenmo": "Shoot then don't move",
-            "censhot": "Drive to center, return, then shoot balls",
-            "Notshomo": "Did not shoot or move"
+            "ShootNeutral": "Shoot then Neutral Zone",
+            "NeutralShoot": "Neutral Zone then Shoot",
+            "TwoCycles": "Two Cycles",
+            "ThreeCycles": "Three Cycles",
+            "NoCycle": "No Cycle"
           }
         },
         {
-          "title": "End Position",
+          "title": "Auto End Position",
           "description": "Where they ended on the field at the end of Autonomous?",
           "type": "select",
           "required": false,
@@ -167,57 +168,8 @@
             "25": "🟧 25%-50%",
             "50": "🟨 50%-75%",
             "75": "🟩 75%-100%"
-          }
-        },
-        {
-          "title": "Alliance won auto?",
-          "description": "Did your alliance win the autonomous period?",
-          "type": "boolean",
-          "required": false,
-          "code": "allianceWonAuto",
-          "formResetBehavior": "reset",
-          "defaultValue": false
-        }
-      ]
-    },
-    {
-  "name": "Teleop",
-  "fields": [
-    {
-      "title": "Active Shift: Gold Spot",
-      "type": "select",
-      "required": false,
-      "code": "Shift_Active_goldSpot",
-      "formResetBehavior": "reset",
-      "defaultValue": "Hub",
-      "choices": {
-        "Hub": "Hub",
-        "Depot": "Depot",
-        "Outpost": "Outpost",
-        "Tren": "Trench",
-        "Neu": "Neutral Zone",
-        "Oppo": "Opponent's Zone",
-        "Other": "Other spots"
-      }
-    },
-    {
-      "title": "Inactive Shift: Gold Spot",
-      "type": "select",
-      "required": false,
-      "code": "Shift_Inactive_goldSpot",
-      "formResetBehavior": "reset",
-      "defaultValue": "Hub",
-      "choices": {
-        "Hub": "Hub",
-        "Depot": "Depot",
-        "Outpost": "Outpost",
-        "Tren": "Trench",
-        "Neu": "Neutral Zone",
-        "Oppo": "Opponent's Zone",
-        "Other": "Other spots"
-      }
-    },
-    {
+      },
+      {
       "title": "Active Shift: Role",
       "type": "select",
       "required": false,
@@ -230,9 +182,9 @@
         "Shuttle": "Shuttler",
         "Pass": "Passer",
         "Defend": "Defender"
-      }
-    },
-    {
+            }
+      },
+      {
       "title": "Inactive Shift: Role",
       "type": "select",
       "required": false,
