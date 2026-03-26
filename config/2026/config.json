@@ -132,7 +132,7 @@
           "required": false,
           "code": "autoCycle",
           "formResetBehavior": "reset",
-          "defaultValue": "Notshomo",
+          "defaultValue": "NoCycle",
           "choices": {
             "ShootNeutral": "Shoot then Neutral Zone",
             "NeutralShoot": "Neutral Zone then Shoot",
