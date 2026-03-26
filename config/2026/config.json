@@ -414,15 +414,6 @@
           }
         },
         {
-          "title": "Mechanical Issue?",
-          "description": "Did the robot have a mechanical issue during the match?",
-          "type": "boolean",
-          "required": false,
-          "code": "mechIssue",
-          "formResetBehavior": "reset",
-          "defaultValue": false
-        },
-        {
           "title": "Comments",
           "type": "text",
           "required": false,
