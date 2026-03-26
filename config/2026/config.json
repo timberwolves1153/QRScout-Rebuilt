@@ -255,7 +255,11 @@
             "Slow Scoring": "Slow Scoring",
             "Fast Scoring": "Fast Scoring",
             "Broken": "Broken",
-            "Lost Connection": "Lost Connection"
+            "Lost Connection": "Lost Connection",
+            "Died": "Died",
+            "Tipped/Fell Over":"Tipped/Fell Over",
+            "Yellow/Red Card": "Yellow/Red Card",
+            "Mechanical Issue": "Mechanical Issue?"
           }
         },
         {
@@ -281,7 +285,11 @@
             "Slow Scoring": "Slow Scoring",
             "Fast Scoring": "Fast Scoring",
             "Broken": "Broken",
-            "Lost Connection": "Lost Connection"
+            "Lost Connection": "Lost Connection",
+            "Died": "Died",
+            "Tipped/Fell Over":"Tipped/Fell Over",
+            "Yellow/Red Card": "Yellow/Red Card",
+            "Mechanical Issue": "Mechanical Issue?"
           }
         },
         {
@@ -307,7 +315,11 @@
             "Slow Scoring": "Slow Scoring",
             "Fast Scoring": "Fast Scoring",
             "Broken": "Broken",
-            "Lost Connection": "Lost Connection"
+            "Lost Connection": "Lost Connection",
+            "Died": "Died",
+            "Tipped/Fell Over":"Tipped/Fell Over",
+            "Yellow/Red Card": "Yellow/Red Card",
+            "Mechanical Issue": "Mechanical Issue?"
           }
         },
         {
@@ -333,7 +345,11 @@
             "Slow Scoring": "Slow Scoring",
             "Fast Scoring": "Fast Scoring",
             "Broken": "Broken",
-            "Lost Connection": "Lost Connection"
+            "Lost Connection": "Lost Connection",
+            "Died": "Died",
+            "Tipped/Fell Over":"Tipped/Fell Over",
+            "Yellow/Red Card": "Yellow/Red Card",
+            "Mechanical Issue": "Mechanical Issue?"
           }
         },
         {
@@ -359,7 +375,11 @@
             "Slow Scoring": "Slow Scoring",
             "Fast Scoring": "Fast Scoring",
             "Broken": "Broken",
-            "Lost Connection": "Lost Connection"
+            "Lost Connection": "Lost Connection",
+            "Died": "Died",
+            "Tipped/Fell Over":"Tipped/Fell Over",
+            "Yellow/Red Card": "Yellow/Red Card",
+            "Mechanical Issue": "Mechanical Issue?"
           }
         },
         {
@@ -385,7 +405,11 @@
             "Slow Scoring": "Slow Scoring",
             "Fast Scoring": "Fast Scoring",
             "Broken": "Broken",
-            "Lost Connection": "Lost Connection"
+            "Lost Connection": "Lost Connection",
+            "Died": "Died",
+            "Tipped/Fell Over":"Tipped/Fell Over",
+            "Yellow/Red Card": "Yellow/Red Card",
+            "Mechanical Issue": "Mechanical Issue?"
           }
         },
         {
@@ -396,37 +420,6 @@
           "code": "mechIssue",
           "formResetBehavior": "reset",
           "defaultValue": false
-        },
-        {
-          "title": "Died?",
-          "description": "Did the robot die during the match?",
-          "type": "boolean",
-          "required": false,
-          "code": "died",
-          "formResetBehavior": "reset",
-          "defaultValue": false
-        },
-        {
-          "title": "Tipped/Fell Over",
-          "description": "Did the robot tip or fall over during the match?",
-          "type": "boolean",
-          "required": false,
-          "code": "tipped",
-          "formResetBehavior": "reset",
-          "defaultValue": false
-        },
-        {
-          "title": "Yellow/Red Card",
-          "type": "select",
-          "required": false,
-          "code": "yc",
-          "formResetBehavior": "reset",
-          "defaultValue": "No Card",
-          "choices": {
-            "No Card": "No Card",
-            "Yellow": "Yellow Card",
-            "Red": "Red Card"
-          }
         },
         {
           "title": "Comments",
