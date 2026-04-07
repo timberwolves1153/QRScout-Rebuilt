@@ -255,8 +255,7 @@
             "No Defense": "No Defense",
             "Slow Scoring": "Slow Scoring",
             "Fast Scoring": "Fast Scoring",
-            "Broken": "Broken",
-            "Disabled/Stopped Working": "Disabled/Stopped Working",
+            "Failed": "Failed",
             "Tipped/Fell Over":"Tipped/Fell Over",
             "Yellow/Red Card": "Yellow/Red Card"
           }
@@ -283,8 +282,7 @@
             "No Defense": "No Defense",
             "Slow Scoring": "Slow Scoring",
             "Fast Scoring": "Fast Scoring",
-            "Broken": "Broken",
-            "Disabled/Stopped Working": "Disabled/Stopped Working",
+            "Failed": "Failed",
             "Tipped/Fell Over":"Tipped/Fell Over",
             "Yellow/Red Card": "Yellow/Red Card"
           }
@@ -311,8 +309,7 @@
             "No Defense": "No Defense",
             "Slow Scoring": "Slow Scoring",
             "Fast Scoring": "Fast Scoring",
-            "Broken": "Broken",
-            "Disabled/Stopped Working": "Disabled/Stopped Working",
+            "Failed": "Failed",
             "Tipped/Fell Over":"Tipped/Fell Over",
             "Yellow/Red Card": "Yellow/Red Card"
           }
@@ -339,8 +336,7 @@
             "No Defense": "No Defense",
             "Slow Scoring": "Slow Scoring",
             "Fast Scoring": "Fast Scoring",
-            "Broken": "Broken",
-            "Disabled/Stopped Working": "Disabled/Stopped Working",
+            "Failed": "Failed",
             "Tipped/Fell Over":"Tipped/Fell Over",
             "Yellow/Red Card": "Yellow/Red Card"
           }
@@ -367,8 +363,7 @@
             "No Defense": "No Defense",
             "Slow Scoring": "Slow Scoring",
             "Fast Scoring": "Fast Scoring",
-            "Broken": "Broken",
-            "Disabled/Stopped Working": "Disabled/Stopped Working",
+            "Failed": "Failed",
             "Tipped/Fell Over":"Tipped/Fell Over",
             "Yellow/Red Card": "Yellow/Red Card"
           }
@@ -395,8 +390,7 @@
             "No Defense": "No Defense",
             "Slow Scoring": "Slow Scoring",
             "Fast Scoring": "Fast Scoring",
-            "Broken": "Broken",
-            "Disabled/Stopped Working": "Disabled/Stopped Working",
+            "Failed": "Failed",
             "Tipped/Fell Over":"Tipped/Fell Over",
             "Yellow/Red Card": "Yellow/Red Card"
           }
