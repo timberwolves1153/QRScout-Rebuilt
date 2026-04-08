@@ -255,7 +255,9 @@
             "No Defense": "No Defense",
             "Slow Scoring": "Slow Scoring",
             "Fast Scoring": "Fast Scoring",
-            "Failed": "Failed",
+            "Few Problems": "Few Problems",
+            "Many Problems": "Many Problems",
+            "Disabled": "Disabled",
             "Tipped/Fell Over":"Tipped/Fell Over",
             "Yellow/Red Card": "Yellow/Red Card"
           }
@@ -282,7 +284,9 @@
             "No Defense": "No Defense",
             "Slow Scoring": "Slow Scoring",
             "Fast Scoring": "Fast Scoring",
-            "Failed": "Failed",
+            "Few Problems": "Few Problems",
+            "Many Problems": "Many Problems",
+            "Disabled": "Disabled",
             "Tipped/Fell Over":"Tipped/Fell Over",
             "Yellow/Red Card": "Yellow/Red Card"
           }
@@ -309,7 +313,9 @@
             "No Defense": "No Defense",
             "Slow Scoring": "Slow Scoring",
             "Fast Scoring": "Fast Scoring",
-            "Failed": "Failed",
+            "Few Problems": "Few Problems",
+            "Many Problems": "Many Problems",
+            "Disabled": "Disabled",
             "Tipped/Fell Over":"Tipped/Fell Over",
             "Yellow/Red Card": "Yellow/Red Card"
           }
@@ -336,7 +342,9 @@
             "No Defense": "No Defense",
             "Slow Scoring": "Slow Scoring",
             "Fast Scoring": "Fast Scoring",
-            "Failed": "Failed",
+            "Few Problems": "Few Problems",
+            "Many Problems": "Many Problems",
+            "Disabled": "Disabled",
             "Tipped/Fell Over":"Tipped/Fell Over",
             "Yellow/Red Card": "Yellow/Red Card"
           }
@@ -363,7 +371,9 @@
             "No Defense": "No Defense",
             "Slow Scoring": "Slow Scoring",
             "Fast Scoring": "Fast Scoring",
-            "Failed": "Failed",
+            "Few Problems": "Few Problems",
+            "Many Problems": "Many Problems",
+            "Disabled": "Disabled",
             "Tipped/Fell Over":"Tipped/Fell Over",
             "Yellow/Red Card": "Yellow/Red Card"
           }
@@ -385,12 +395,14 @@
           "code": "tag6",
           "formResetBehavior": "reset",
           "choices": {
-            "Good Defense": "Good Defense",
+           "Good Defense": "Good Defense",
             "Bad Defense": "Bad Defense",
             "No Defense": "No Defense",
             "Slow Scoring": "Slow Scoring",
             "Fast Scoring": "Fast Scoring",
-            "Failed": "Failed",
+            "Few Problems": "Few Problems",
+            "Many Problems": "Many Problems",
+            "Disabled": "Disabled",
             "Tipped/Fell Over":"Tipped/Fell Over",
             "Yellow/Red Card": "Yellow/Red Card"
           }
